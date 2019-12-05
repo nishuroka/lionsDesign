@@ -1,0 +1,35 @@
+h1,h2,h3,h4{
+font-family: 'Ubuntu', sans-serif;
+text-transform: uppercase;
+}
+p{
+    font-family: 'Be Vietnam', sans-serif;
+}
+/* main-banner */
+.main-banner{
+    background: url('../images/main-banner.jpg');
+    height: 520px;
+    /* background-color: black; */
+    color: white;
+}
+.main-banner h1{
+    
+    height: auto;
+    padding-top: 305px;
+    font-weight: bold;
+}
+.main-banner .fa{
+    font-size: 40px;
+    padding-top: 80px;
+}
+.main-banner .fa:hover{
+    color: black;
+}
+
+/* detaildiv */
+
+/* color-green */
+.color-green{
+    background-color: green;
+    padding: 20px;
+}
