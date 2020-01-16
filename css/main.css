@@ -17,7 +17,7 @@ h1,h2,h3,h4{
 }
 p{
     font-family: 'Be Vietnam', sans-serif;
-    margin-bottom: 0rem;
+    /* margin-bottom: 0rem; */
 }
 
 ul,ol{
@@ -42,7 +42,10 @@ a:hover{
  #topNav ul{
     float: right;
 }
-
+.carousel-item img{
+    width: "100%" !important;
+    height: "500" !important;
+}
 .nav > li > a {
     display: block;
     padding: 10px 15px;
@@ -676,3 +679,9 @@ footer{
         }
       
  
+
+
+
+
+
+        

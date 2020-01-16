@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link href="css/main.css" rel="stylesheet">
+    <link href="css/slider.css" rel="stylesheet">
 </head>
 
 <body>
@@ -21,10 +22,10 @@
                     <ul class="navs" id="">
                         <li class=""><a href="" target="_self">Home</a></li>
                         <li><a href="" target="_self">About Us</a></li>
-                        
+
                         <li><a href="" target="_self">Contact</a></li>
-                   
-                    
+
+
                         <li><a href="" class="btn log"> Login</a></li>
                         <li class="more" style="display: none;"> <span>...</span>
                             <ul id="overflow" style="left: 19px;"></ul>
@@ -64,61 +65,156 @@
 
         <div class="nav-menu bg-new">
             <div class="container">
-                    <nav class="navbar navbar-expand-lg ">
-  
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                              <span title="Open Main Navigation" class="relative">
-                                  <span class="app-menu-icon-initial absolute center-a"><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="bars" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-bars fa-w-14 fa-fw fa-lg"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z" class=""></path></svg>
-                                </span> 
-                                
+                <nav class="navbar navbar-expand-lg ">
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span title="Open Main Navigation" class="relative">
+                            <span class="app-menu-icon-initial absolute center-a"><svg aria-hidden="true"
+                                    focusable="false" data-prefix="far" data-icon="bars" role="img"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                                    class="svg-inline--fa fa-bars fa-w-14 fa-fw fa-lg">
+                                    <path fill="currentColor"
+                                        d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"
+                                        class=""></path>
+                                </svg>
                             </span>
-                            </button>
-                          
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                              <ul class="navbar-nav mr-auto">
-                                <li class="nav-item active">
-                                  <a class="nav-link" href="#">Lions Clubs <span class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                      Doners
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                      <a class="dropdown-item" href="#">MJF</a>
-                                      <div class="dropdown-divider"></div>
-                                      <a class="dropdown-item" href="#">NLF</a>
-                                      <div class="dropdown-divider"></div>
-                                      <a class="dropdown-item" href="#">Padhau Abhiyan</a>
-                                      <div class="dropdown-divider"></div>
-                                      <a class="dropdown-item" href="#">TU Lions Blood</a>
+
+                        </span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Lions Clubs <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Doners
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">MJF</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">NLF</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Padhau Abhiyan</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">TU Lions Blood</a>
+                                </div>
+                            </li>
+                            <li class="nav-item menu-li dropdown">
+                                <a class="nav-link color-menu dropdown-toggle" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">District
+                                    officers </a>
+                                <div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown">
+                                    <div class="row">
+                                        <div class="col-md">
+                                            <p>
+                                                <strong class="sub-menu-heading"><a
+                                                        href="#">Governer Team</a></strong>
+                                            </p>
+                                            <p>
+                                                <a href=""  class="menu-li-color list-font-size"> District Governer</a>
+                                            </p>
+                                            <p>
+                                                <a href=""
+                                                     class="menu-li-color list-font-size"> 1st Vice District Governer</a>
+                                            </p>
+                                            <p>
+                                                <a href=""
+                                                     class="menu-li-color list-font-size"> 2nd Vice District Governer</a>
+                                            </p>
+                                            <p><a href=""
+                                                     class="menu-li-color list-font-size"> Chief Advisor
+                                                </a>
+                                            </p>
+                                            <p>
+                                                <a href="" class="menu-li-color list-font-size"> Cabinet Tresurer</a>
+                                            </p>
+                                            <p>
+                                                <a href="" class="menu-li-color list-font-size"> Cabinet Secratery</a>
+                                            </p>
+                                            <p>
+                                                <a href="" class="menu-li-color list-font-size"> Spouses</a>
+                                            </p>
+                                                    
+                                        </div>
+                                        <div class="col-md">
+                                            <p><strong class="sub-menu-heading">
+                                                <a href="">Advisory Counsil</a></strong></p>
+                                            <p>
+                                                <a href="" class="menu-li-color list-font-size">PRO in Chief</a>
+                                            </p>
+                                            <p><a href=""
+                                                     class="menu-li-color list-font-size"> District Administrator</a></p>
+                                            <p><a href="" 
+                                                    class="menu-li-color list-font-size"> Co-Chief Advisor</a></p>
+                                            <p><a href="" class="menu-li-color list-font-size"> NLF Chief</a></p>
+                                            <p><a href="" class="menu-li-color list-font-size"> Padhau Abhiyan Chief</a></p>
+                                            <p><a href="" class="menu-li-color list-font-size"> Deputy Chief Advisors</a></p>
+                                            <p><a href="" class="menu-li-color list-font-size"> Advisors</a></p>
+                                            <p><a href="" class="menu-li-color list-font-size"> Honorary Advisors</a></p>
+                                            <p><a href="" class="menu-li-color list-font-size"> Senior Advisors</a></p>
+                                            <p><a href="" class="menu-li-color list-font-size"> Department Chiefs</a></p>
+                                            <p><a href="" class="menu-li-color list-font-size"> Senior AOGs</a></p>
+                                            <p><a href="" class="menu-li-color list-font-size"> Cluster Chiefs</a></p>
+                                            <p><a href="" class="menu-li-color list-font-size"> Deputy Department Chiefs</a></p>
+                                            <p><a href="" class="menu-li-color list-font-size"> AOG</a></p>
+                                            <p><a href="" class="menu-li-color list-font-size"> PRO</a></p>
+                                        </div>
+                                        <div class="col-md">
+                                            <p><strong class="sub-menu-heading">
+                                                <a href=""> Coordinators</a></strong>
+                                            </p>
+                                            <p><a href=""
+                                                     class="menu-li-color list-font-size"> GLT District Coordinator</a></p>
+                                            <p><a href=""
+                                                     class="menu-li-color list-font-size"> GMT District Coordinator</a></p>
+                                            <p><a href=""
+                                                     class="menu-li-color list-font-size"> GST District oordinator</a></p>
+                                            <p><a href=""
+                                                     class="menu-li-color list-font-size"> LCIF District Coordinator</a></p>
+                                            <p><a href=""
+                                                     class="menu-li-color list-font-size"> FWC District Coordinator</a></p>
+                                            
+                                        </div>
+                                        <div class="col-md">
+                                            <p><strong class="sub-menu-heading"><a
+                                                        href=""
+                                                        >District Committee</a></strong></p>
+                                            <p><a href="le-safari"
+                                                     class="menu-li-color list-font-size"> Committee Chairperson</a></p>
+                                            
+                                        </div>
+                                        
                                     </div>
-                                  </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">District Officers</a>
-                                </li>
-                                
-                                    <li class="nav-item">
-                                            <a class="nav-link" href="#">History</a>
-                                        </li>
-                                        <li class="nav-item">
-                                                <a class="nav-link" href="#">Leo District</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                    <a class="nav-link" href="#">News & Notices</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                        <a class="nav-link" href="#">Resources</a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                            <a class="nav-link" href="#">e-Newsletter</a>
-                                                        </li>
-                                
-                              </ul>
-                            </div>
-                          </nav>
-                          
+                                </div>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">History</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Leo District</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">News & Notices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Resources</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">e-Newsletter</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </nav>
+
             </div>
-            
+
         </div>
         <!--nav-menu-->
 
@@ -296,32 +392,32 @@
                     <form class=" pt-3">
                         <div class="row">
                             <div class="col-md-6">
-                                    <div class="form-group mb-2">
-                                            <label for="name" class="sr-only">Name</label>
-                                            <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                          </div>
+                                <div class="form-group mb-2">
+                                    <label for="name" class="sr-only">Name</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                </div>
                             </div>
                             <div class="col-md-6">
-                                    <div class="form-group mb-2">
-                                            <label for="email" class="sr-only">Email</label>
-                                            <input type="text" class="form-control" id="email" placeholder="email@example.com">
-                                          </div>
+                                <div class="form-group mb-2">
+                                    <label for="email" class="sr-only">Email</label>
+                                    <input type="text" class="form-control" id="email" placeholder="email@example.com">
+                                </div>
                             </div>
                             <div class="col-md-6">
-                                    <div class="form-group mb-2">
-                                            <label for="phone" class="sr-only">Phone</label>
-                                            <input type="text" class="form-control" id="name" placeholder="9860073031">
-                                          </div>
+                                <div class="form-group mb-2">
+                                    <label for="phone" class="sr-only">Phone</label>
+                                    <input type="text" class="form-control" id="name" placeholder="9860073031">
+                                </div>
                             </div>
                             <div class="col-md-6">
-                                    <div class="form-group mb-2">
-                                            <label for="email" class="sr-only">Location</label>
-                                            <input type="text" class="form-control" id="email" placeholder="Location">
-                                          </div>
+                                <div class="form-group mb-2">
+                                    <label for="email" class="sr-only">Location</label>
+                                    <input type="text" class="form-control" id="email" placeholder="Location">
+                                </div>
                             </div>
                         </div>
                         <button type="submit" class="btn btn-primary mb-2 mt-2">Submit</button>
-                      </form>
+                    </form>
                 </div>
             </div>
         </div>
@@ -374,7 +470,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-3 contributor-team-list">
                     <div class="list-box">
-                        <a href="https://www.lionsclubs325b1.org.np/members/detail/729/mr-krishna-bahadur-adhikari">
+                        <a href="etail/729/mr-krishna-bahadur-adhikari">
                             <figure>
                                 <img src="images/lionLogo.jpg" alt="Mr Krishna Bahadur Adhikari">
                             </figure>
@@ -494,7 +590,36 @@
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+
+        $(document).ready(function () {
+            //responsive menu toggle
+            $("#menutoggle").click(function () {
+                $('.xs-menu').toggleClass('displaynone');
+
+            });
+            //add active class on menu
+            $('ul li').click(function (e) {
+                e.preventDefault();
+                $('li').removeClass('active');
+                $(this).addClass('active');
+            });
+            //drop down menu	
+            $(".drop-down").hover(function () {
+                $('.mega-menu').addClass('display-on');
+            });
+            $(".drop-down").mouseleave(function () {
+                $('.mega-menu').removeClass('display-on');
+            });
+
+        });
+
+
+
+
+    </script>
 </body>
 
 </html>
