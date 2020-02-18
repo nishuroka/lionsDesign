@@ -18,3 +18,165 @@
   border: 1px solid rgba(142, 17, 22, 0.48);
     border-radius: .25rem;
 }
+
+/* #main-slide .cal-img-height{
+  /* height: 82vh; 
+} */
+#main-slide .cal-img-height img{
+  width:100%;
+  object-fit: cover;
+  background-size: cover;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+  height: 82vh;
+}
+
+
+#main-slide .carousel-caption {
+  right: 16% !important;
+  bottom: 0 !important;
+  left: auto !important;
+
+  
+  color: #fff;
+  text-align: center;
+  top: 36% !important;
+}
+
+/* Lions Projects */
+#Lprojects .col-md-4{
+  float: left;
+}
+
+.nd-wrap {
+overflow: hidden;
+text-align: center;
+margin: 0 auto;
+position: relative;
+display: inline-block;
+}
+.nd-wrap img {
+display: block;
+width: 100%;
+height: 35vh;
+object-fit: cover;
+}
+.nd-title {
+position: relative;		
+top: -150px;
+opacity: 0;
+margin: 0 0 30px;
+font-weight: 400;
+-webkit-transition: all 1s ease 0.01s;
+    transition: all 1s ease 0.01s;
+}
+.nd-title {
+color: #fff;	
+padding: 0 20px 15px;
+border-bottom: 1px solid #ccc;
+display: block;
+font-weight: bold;
+font-size:1.5em;
+    width: 70%;
+  margin: 0 auto 1em;
+}
+.nd-icon {
+  color: #fff;
+  display: inline-block;
+  font-size: 25px;
+  margin: 0 5px;
+  opacity: 0;
+  position: relative;
+cursor: pointer;
+-webkit-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+-webkit-transition-timing-function: cubic-bezier(1.000, -0.530, 0.405, 1.425);
+    transition-timing-function: cubic-bezier(1.000, -0.530, 0.405, 1.425);
+}
+.nd-icon i{
+    background: #f5af02;
+border: 2px solid;
+  border-radius: 50% 0 50% 50%;
+border-color:transparent;
+width: 40px;
+  height: 40px;
+  font-size: 0.7em;
+  line-height: 2em;
+-webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.nd-icon:hover i {
+    background: #0064d2;
+-webkit-transform: scale(1.1,1.1);
+    transform: scale(1.1,1.1);
+}
+.nd-content {
+position: absolute;
+width: 100%;
+height: 100%;
+left: 0;
+top: 0;
+-webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.nd-content_inner {
+display: table;
+width: 100%;
+height: 100%;
+}
+.nd-content_inner1 {
+display: table-cell;
+width: 100%;
+height: 100%;
+vertical-align: middle;
+}
+/* =============== HOVER AREA =============== */
+.nd-wrap:hover .nd-icon,
+.nd-wrap:hover .nd-content,
+.nd-wrap:hover .nd-title {
+opacity: 1;
+top: 0;
+}
+.nd-wrap:hover .nd-title {
+-webkit-transition: all 0.5s cubic-bezier(1.000, -0.530, 0.405, 1.425) 0.01s;
+    transition: all 0.5s cubic-bezier(1.000, -0.530, 0.405, 1.425) 0.01s;
+}
+.nd-wrap:hover .nd-content {
+background: rgba(0, 0, 0, 0.5);
+}
+
+
+/* =============== STYLE 8 =============== */
+.nd-wrap.nd-style-8:hover .nd-title {
+-webkit-transition: all 0.5s ease 0.01s;
+    transition: all 0.5s ease 0.01s;
+}
+.nd-style-8 .nd-icon {
+-webkit-transform: rotate(180deg) scale(1.5,1.5);
+    transform: rotate(180deg) scale(1.5,1.5);
+-webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
+}
+.nd-wrap.nd-style-8:hover .nd-icon {
+-webkit-transform: rotate(360deg) scale(1,1);
+    transform: rotate(360deg) scale(1,1);
+}
+.gal-gd-sec{
+margin:2em 0;
+}
+
+@media only screen and (max-width: 800px) {
+  #main-slide .cal-img-height{
+    height: 40vh;
+  }
+  .heron-wrap .overlay{
+    min-height: 82vh;
+  }
+  .nd-wrap img {
+    
+    height: 45vh;
+    
+    }
+}

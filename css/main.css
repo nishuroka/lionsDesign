@@ -70,7 +70,7 @@ a:hover{
     padding-left: 5px;
     padding-right: 5px;
 }
-#mainwrap #socialTop #socialIcons li .fa {
+#mainwrap #socialTop #socialIcons li .fa,  #mainwrap #socialTop #socialIcons li .fab{
     line-height: 1.6;
     font-size: 20px;
     color: #00529b;
@@ -189,14 +189,14 @@ ul.more-address {
     flex-direction:column;
   }
 .blog{
-    width:600px;
+    /* width:600px; */
     line-height:1.5rem;
   }
   
   .gallery{
     position:relative;
     display:grid;
-    grid-template-columns:repeat(6,100px);
+    /* grid-template-columns:repeat(6,100px); */
     grid-template-rows:repeat(5,100px);
   }
   
@@ -211,7 +211,7 @@ ul.more-address {
   .item img{
     height:100%;
     width:100%;
-    object-fit:cover;
+    object-fit:contain;
   }
   
   .feature{
@@ -339,7 +339,11 @@ img.img-responsive.logo {
     min-height: 700px;
     position: relative;
 }
-.hero-wrap .overlay {
+.heron-wrap{
+    position: relative;
+    min-height: 82vh;
+}
+.hero-wrap .overlay, .heron-wrap .overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -519,14 +523,7 @@ footer{
     color: white;
 }
 
-/* @media   (min-width: 500px){ */
-    #socialTop {
-       height: 45px;
-       background: #00529b url(../images/bg1.png) left top repeat-x;
-   }
-   /* #mainwrap #socialTop #topNav {
-    text-align: right;
-} */
+
 
 
 
