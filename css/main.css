@@ -32,248 +32,7 @@ a:hover{
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
-/*========================================= index ===================================*/
-/* header */
-/* @media screen and (min-width: 768px){ */
- #socialTop {
-    height: 45px;
-    background: #00529b url(../images/bg1.png) left top repeat-x; 
-}
- #topNav ul{
-    float: right;
-}
-.carousel-item img{
-    width: "100%" !important;
-    height: "500" !important;
-}
-.nav > li > a {
-    display: block;
-    padding: 10px 15px;
-}
 
-.ccm-block-social-links ul.list-inline {
-    display: inline-block;
-    margin: 0px;
-    padding: 0px;
-}
-#mainwrap #socialTop #socialIcons li {
-    background: #ebb700;
-    border-radius: 16px;
-    width: 32px;
-    height: 32px;
-    text-align: center;
-    margin-top: 7px;
-    margin-right: 6px;
-}
-.list-inline > li {
-    display: inline-block;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-#mainwrap #socialTop #socialIcons li .fa,  #mainwrap #socialTop #socialIcons li .fab{
-    line-height: 1.6;
-    font-size: 20px;
-    color: #00529b;
-}
-#mainwrap #tagline {
-    padding: 10px 0;
-}
-#socialTop a{
-    color: #fff !important;
-} 
-@media screen and (min-width: 992px){
-#mainwrap #tagline #Logo {
-    position: absolute;
-    z-index: 1;
-    top: -34px;
-    width: 439px;
-    height: 154px;
-}
-#mainwrap #mainNavWrapper {
-    height: 84px;
-}
-}
-.jbmm.custom {
-    padding-top: 28px;
-}
-.jbmm.custom ul.mega-menuh li {
-    float: left;
-    margin: 0;
-    padding: 0;
-    font-size: 15px;
-}
-.jbmm.custom ul.mega-menuh li a {
-    /* float: left; */
-    /* display: block; */
-    color: #04519d;
-    padding: 13px 10px;
-}
-.jbmm .navbar{
-    float: right;
-}
-li a.pl-210 {
-    touch-action: manipulation;
-    cursor: pointer;
-    border: 1px solid transparent;
-    white-space: nowrap;
-    padding: 6px 12px;
-    font-size: 17px;
-    line-height: 1.42857143;
-    border-radius: 4px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    background: #ebb700;
-    color: #003768;
-    border-color: #d2a300;
-    /* padding: 6px 12px !important; */
-    font-size: 15px !important;
-    margin-top: 4px;
-}
-/* .main-head{
-    padding: 30px 0;
-    background: #ffd001;
-    
-} */
-
-/* international */
-.intDist{
-    background: #00529b url(../images/bg1.png) left top repeat;
-}
-
-.intDist h2, .intDist h1{
-    color: #fff;
-}
-.gov .member-bio{
-    margin-left: 30%;
-    width: 50%;
-}
-.gov ul li{
-    margin-bottom: 9px !important; 
-}
-/* governers */
-.member-bio ul li span {
-    font-weight: bold;
-    display: inline-block;
-}
-.member-bio ul {
-    float: initial;
-    margin-top: 25px;
-    text-align: justify;
-}
-.resume .list-box {
-    padding: 120px 30px 30px;
-     margin-top: 46px; 
-}
-.member-bio ul li {
-    margin-bottom: 5px;
-    text-align: justify;
-}
-ul.more-address {
-    float: right;
-    width: 68%;
-    margin-top: 0;
-}
-.resume .list-box img{
-    width: 130px;
-    height: 130px;
-}
-.intDist .gov img{
-    width: 160px;
-    height: 160px;
-}
-/* gallery */
-.newsletter{
-    display:flex;
-    justify-content:center;
-    flex-direction:column;
-  }
-.blog{
-    /* width:600px; */
-    line-height:1.5rem;
-  }
-  
-  .gallery{
-    position:relative;
-    display:grid;
-    /* grid-template-columns:repeat(6,100px); */
-    grid-template-rows:repeat(5,100px);
-  }
-  
-  .item{
-    margin:0.2em;
-  }
-  
-  .small:hover{
-    opacity:0.5;
-  }
-  
-  .item img{
-    height:100%;
-    width:100%;
-    object-fit:contain;
-  }
-  
-  .feature{
-    grid-row: 1 / span 4;
-  grid-column: 1 / span 6;
-    position:relative;
-  }
-  
-  
-  .arrow{
-    position:absolute;
-    bottom:0px;
-    background:#546E7A;
-    opacity:0.9;
-    box-shadow:5px 5px 5px #37474F;
-    border-radius:50%;
-    width:30px;
-    height:30px;
-    margin:0.2em;
-    
-    display:flex;
-    justify-content:center;
-    align-items:center;
-  }
-  
-  .arrow img{
-    width:20px;
-    height:20px;
-  }
-  
-  .arrow-left{
-    left:-20px;
-  }
-  
-  .arrow-right{
-    right:-20px;
-  }
-  
-  
-  /* put text alongside gallery for large screens */
-  
-  @media screen and (min-width:1000px){
-    .newsletter{
-      flex-direction:row;
-    }
-    
-    .blog{
-      width:auto;
-      margin:0 3em;
-    }
-  }
-/* footer */
-footer{
-    padding: 0 40px;
-    
-}
-footer .jbmm.custom ul.mega-menuh li a{
-    color: #f86f2d;
-}
-footer .jbmm.custom{
-    padding-top:0;
-}
 /*========================================= main ===============================*/
 /* navbar */
 .top-header {
@@ -319,6 +78,24 @@ img.img-responsive.logo {
 .bg-new .navbar-nav .dropdown-menu {
     background: #b31118;
 }
+.sub-menu-heading {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+  }
+  
+  
+  .mega-menu {
+    width: 1040px;
+    overflow: hidden;
+    left: -153%;
+  }
+  
+  .dropdown-menu {
+    margin-top: 11px;
+    padding: 10px 17px;
+    border: 1px solid rgba(142, 17, 22, 0.48);
+      border-radius: .25rem;
+  }
 .bg-new .navbar-toggler {
     background-color: #dddddd;
     border: 1px solid #dddddd;
@@ -367,16 +144,6 @@ img.img-responsive.logo {
     -ms-flex-pack: center!important;
     justify-content: center!important;
 }
-
-/* .row {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-} */
 
 .slider-text h1 {
     font-size: 60px;
@@ -522,7 +289,27 @@ footer{
     background: #00529b url(../images/bg1.png) left bottom repeat-x;
     color: white;
 }
-
+.jbmm.custom {
+    padding-top: 28px;
+}
+.jbmm.custom ul.mega-menuh li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+.jbmm.custom ul.mega-menuh li a {
+    /* float: left; */
+    /* display: block; */
+    color: #04519d;
+    padding: 13px 10px;
+}
+footer .jbmm.custom ul.mega-menuh li a{
+    color: #f86f2d;
+}
+footer .jbmm.custom{
+    padding-top:0;
+}
 
 
 
@@ -677,7 +464,16 @@ footer{
       
  
 
-
+@media only screen and (max-width: 800px){
+    #socialTop {
+        height: auto;
+        background-image:none;
+        padding-bottom: 3px;
+    }
+    
+    
+           
+}
 
 
 

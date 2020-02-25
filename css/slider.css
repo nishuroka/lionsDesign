@@ -1,27 +1,6 @@
-.sub-menu-heading {
-  border-bottom: 2px solid #fff;
-  padding-bottom: 5px;
-}
 
 
-.mega-menu {
-  width: 1040px;
-  overflow: hidden;
-  left: -153%;
-}
-/* .col-md{
-  border-right: 2px dotted #fff;
-} */
-.dropdown-menu {
-  margin-top: 11px;
-  padding: 10px 17px;
-  border: 1px solid rgba(142, 17, 22, 0.48);
-    border-radius: .25rem;
-}
 
-/* #main-slide .cal-img-height{
-  /* height: 82vh; 
-} */
 #main-slide .cal-img-height img{
   width:100%;
   object-fit: cover;
@@ -38,8 +17,6 @@
   right: 16% !important;
   bottom: 0 !important;
   left: auto !important;
-
-  
   color: #fff;
   text-align: center;
   top: 36% !important;
@@ -179,4 +156,43 @@ margin:2em 0;
     height: 45vh;
     
     }
+}
+
+
+/* projects-main */
+#innerHeader {
+  background-color: #112e56;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+#blogTitle {
+  background: #f6f6f6 url(../images/bg3.png) bottom left repeat-x;
+  padding: 3em 0 6em;
+  text-align: center;
+  margin-bottom: 3em;
+}
+#blogTitle h2:after {
+  width: 2em;
+  margin: 10px auto 0;
+}
+#blogTitle p {
+  font-size: 18px;
+  margin: 0;
+}
+#blogImage {
+  padding-bottom: 2em;
+}
+#blogImage img {
+  margin: 0 auto;
+  width: 500px;
+    height: auto;
+}
+@media only screen and (max-width: 800px){
+#innerHeader {
+    background-size: cover;
+}
+#innerHeader img {
+  max-height: 150px;
+  visibility: hidden;
+}
 }
